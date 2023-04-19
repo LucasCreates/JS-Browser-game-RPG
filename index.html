@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      
+    </head>
+    <body>
+
+      <div class="nav">
+        <div class="title">Island of Artaeum</div>
+       <div class="nav-menu-container">
+        <div class="nav-menu about">About</div>
+        <div class="nav-menu">Guide</div>
+        <div class="nav-menu">Gallery</div>
+        <div class="nav-menu">Login</div>
+
+        <div class="nav-menu sign-up">Sign up</div>
+        <div class="min-menu">
+          <hr>
+          <hr>
+          <hr>
+        </div>
+       </div>
+        
+      </div>
+      <div class="main">
+
+
+        <div class="left-box"></div>
+
+        <div class="game-screen">
+             <div class="battle-screen">
+              <div class="player-hp-container">Health : <span class="player-health"></span> </div>
+              <div class="player-mana-container">Mana :  <span class="player-mana"></span> </div>
+              <div class="enemy-hp-container">Enemy Health : <span class="enemy-health"></span></div>
+              <div class="enemy-container">
+                <img class="enemy" src="images2/troll.jpg">
+
+              </div>
+
+
+           </div>
+
+<!-- 
+###################################################################
+
+Map icons
+
+###################################################################
+
+ -->
+          <div class="map-container">
+            <button class="map-icon town" onclick="moveToTown()">town</button>
+            <button class="map-icon land1"></button>
+            <button class="map-icon land2"></button>
+            <button class="map-icon land3"></button>
+            
+          </div>
+
+        
+<!-- 
+###################################################################
+
+Town icons
+
+###################################################################
+
+ -->
+
+           <div class="town-container">
+            <button class="town-icon tavern" onclick="moveToTavern()">tavern</button>
+            <button class="town-icon general-shop" onclick="moveToGeneralStore()">General Store</button>
+            <button class="town-icon training-grounds" onclick="moveToTraining()">Training grounds</button>
+            <button class="town-icon magic-shop" onclick="moveToMagic()">Magic Shop</button>
+            <button class="town-icon temple" onclick="moveToTemple()">Temple</button>
+            <button class="town-icon player-home" onclick="moveToHome()">Home</button>
+            <button class="town-icon world" onclick="moveToWorld()">Leave</button>
+            
+          </div>
+
+          <div class="title-menu">
+            <img class="title-screen"src="images2/title.jpeg" width="100%" height="100%"/>
+            <button class="btn" onclick="changeImage()">Start Game</button>
+            <div class="message-box">
+
+              <p>You are deep within a dream sd fsdf fsd fsaddf sf sd
+              dsfsdf sdf dsf 
+            sdf sdf sdf s sdh </p>
+
+            </div>
+
+          </div>
+       
+
+<!-- 
+########################################################################
+
+      Game buttons
+  
+########################################################################
+           -->
+           <div class="game-btn">
+            <button class="start-battle" onclick="battleStart()">Battle</button>
+            <button class="travel" onclick="travelMap()">Travel</button>
+
+            <!--######### Battle buttons ################-->
+            
+            <button class="attack" onclick="attackSword()">Attack</button>
+            <button class="magic">Magic</button>
+            <button class="item">Item</button>
+            <button class="run">Run</button>
+
+            <!--######################################### -->
+
+
+            <button class="inventory" onclick="test()">Inventory</button>
+            <button class="character">Character</button>
+           
+            <button class="leave" onclick="exitLocation()">Leave</button>
+          </div>
+
+<!-- 
+########################################################################
+  Battle screen
+########################################################################
+ -->
+            
+
+
+
+
+          
+        </div>
+
+        <div class="right-box"></div>
+
+      </div>
+      <div class="footer"></div>
+      <!-- <header>
+        <nav>
+          
+        </nav>
+      </header>
+
+      
+      
+
+      <section>
+        <div class="gameScreen">
+          
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer">
+          
+        </div>
+      </footer>
+ -->
+
+
+
+      <script type="text/javascript" src="script.js"></script>
+    </body>
+
+
+
+  </html>
